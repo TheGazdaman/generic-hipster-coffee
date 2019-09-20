@@ -1,5 +1,5 @@
 header {
-    background-color: lightgray;
+    background-color: $header-background;
 }
 
 .header__flex {
@@ -24,10 +24,14 @@ header {
         padding: 0.7rem;
         text-decoration: none;
         margin-bottom: 1rem;
-
+        color: $header-navbar;
         &:hover {
             text-decoration: underline;
         }
+    }
+
+    .header-active {
+        color: black;
     }
 
     @media (min-width: 600px) {
@@ -37,6 +41,3 @@ header {
     }
 }
 
-.header__active {
-    font-weight: 700;
-}
