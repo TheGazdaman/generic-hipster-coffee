@@ -21,7 +21,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+    max-height: 100%;
     
     div {
         display: flex;
@@ -42,8 +42,8 @@
 .first-img {
     display: flex;
     flex-direction: column;
-    width: 90%;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     // margin-left: 4rem;
     // margin-right: 4rem;
     // background-image: url("/img/counter.jpg");
@@ -56,7 +56,13 @@
     }
    
 }
+.first {
+    width: 100%;
+    height: auto;
+} 
 
+
+// style="width:90vw;height:50vh;
 .map-img {
     display: flex;
     flex-direction: column;
@@ -67,8 +73,8 @@
     // padding-left: 4rem;
     // padding-right: 4rem;
     position: relative;
-    width: 90%;
-    height: 50vh;
+    width: 100%;
+    height: auto;
     
     background-size: cover;
     // background-image: url("/img/map.jpg");
@@ -83,17 +89,20 @@
     }
 }
 .googlemap {
-    position: relative;
-    top: 30px;
+    margin-bottom: -3rem;
+    width: 100%;
+    height: auto;
+} 
     
     
-}
 .first-box {
+    width: 90%;
     display: flex;
     flex-direction: column;
-    margin-left: 2rem;
+    // padding-left: 2rem;
     // margin-right: -1rem;
     // margin-top:rem;
+    margin: 0 auto;
     
 
 }
