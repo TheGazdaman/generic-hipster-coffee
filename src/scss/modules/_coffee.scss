@@ -1,0 +1,74 @@
+.coffee {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  
+  .coffee-item1 {
+    
+    background-color: $header-background;
+    margin-top: 10px;
+  }
+
+    .coffee-item1 > img {
+      width: 100%;
+      height: auto;
+    }
+
+  .coffee-item2 {
+    
+    background-color: $header-background;
+    margin-top: 10px;
+  }
+    .coffee-item2 img {
+      width: 100%;
+      height: auto;
+    }
+
+  .coffee-item3 {
+    
+    background-color: $header-background;
+    margin-top: 10px;
+  }
+    .coffee-item3 img {
+      width: 100%;
+      height: auto;
+    }
+
+  .coffee-item4 {
+    
+    background-color: $header-background;
+    margin-top: 10px;
+  }
+    .coffee-item4 img {
+      width: 100%;
+      height: auto;
+    }
+
+    .item-heading {
+      padding: 4px;
+    }
+
+    .item-comment {
+      padding: 4px;
+    }
+  
+  @media(min-width: 800px) {
+    display: flex;
+    
+    .heading {
+      flex-direction: row;
+    }
+
+    .coffee-selection {
+      display: flex;
+      /* flex-direction: column; */
+      flex-wrap: wrap;
+    }
+
+    .coffee-item1, .coffee-item2, .coffee-item3, .coffee-item4 {
+      flex-basis: 20;
+      
+    }
+  }
+}
+
