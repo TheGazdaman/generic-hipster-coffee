@@ -67,7 +67,7 @@
 
           .coffee-item1 {
             /* width: 400px; */
-            width: 49%;
+            width: 400px;
             height: auto;
             
 
@@ -93,35 +93,32 @@
             flex-wrap: wrap; 
          
           .coffee-item1 {
+
             width: 400px;
             height: auto;
+            img {
+              
+              width: 400px;
+              height: auto;
+              
+            }
           }
 
           
         }
         .cup2 {
           flex-wrap: wrap; 
-          .coffee-item3 {
+
+          .coffee-item1 {
             width: 400px;
             height: auto;
-          }
-          
-          
-           
-          
-          .cup1 {
-            .coffee-item1 {
-              img {
+            img {
               
-                width: 400px;
-                height: auto;
-                
-              }
-            } 
-            
-          }
-
-         
+              width: 400px;
+              height: auto;
+              
+          } 
+        }
             }
           
             
