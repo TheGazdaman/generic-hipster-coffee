@@ -1,0 +1,32 @@
+.story {
+    max-width: 1000px;
+    margin: 0 auto;
+    font-weight: 300;
+    padding: 1.5rem;
+
+    h1,
+    h2 {
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+
+    h1 {
+        font-size: 2.4rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        margin-bottom: 5rem;
+        font-size: 2rem;
+    }
+
+    img {
+        margin-top: -6rem;
+        width: 100%;
+        position: relative;
+        bottom: -3.5rem;
+    }
+}
