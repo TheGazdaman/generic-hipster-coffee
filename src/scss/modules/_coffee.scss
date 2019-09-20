@@ -3,72 +3,215 @@
   flex-direction: column;
   padding: 10px;
   
-  .coffee-item1 {
-    
-    background-color: $header-background;
-    margin-top: 10px;
+  h6 {
+    padding: 10px;
   }
 
-    .coffee-item1 > img {
-      width: 100%;
-      height: auto;
-    }
+  .heading {
+    padding: 10px;
 
-  .coffee-item2 {
+    h1 {
+      padding: 10px;
+    }
     
-    background-color: $header-background;
-    margin-top: 10px;
-  }
-    .coffee-item2 img {
-      width: 100%;
-      height: auto;
-    }
-
-  .coffee-item3 {
     
-    background-color: $header-background;
-    margin-top: 10px;
+    p {
+      padding: 10px;
+    }  
   }
-    .coffee-item3 img {
-      width: 100%;
-      height: auto;
-    }
-
-  .coffee-item4 {
-    
-    background-color: $header-background;
-    margin-top: 10px;
-  }
-    .coffee-item4 img {
-      width: 100%;
-      height: auto;
-    }
-
-    .item-heading {
-      padding: 4px;
-    }
-
-    .item-comment {
-      padding: 4px;
-    }
   
-  @media(min-width: 800px) {
+  .cup1 {
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+
+    .coffee-item1 {
+      width: 300px;
+      height: auto;
+      background-color: $header-background;
+      margin: 10px;
+    }
+
+      .coffee-item1 img {
+        width: 300px;
+        height: auto;
+      }
+
+    .coffee-item2 {
+      width: 300px;
+      height: auto;
+      background-color: $header-background;
+      margin: 10px;
+    }
+     .coffee-item2 img {
+        width: 300px;
+        height: auto;
+      }
     
-    .heading {
-      flex-direction: row;
-    }
+  }
+  
+  .cup2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 
-    .coffee-selection {
-      display: flex;
-      /* flex-direction: column; */
-      flex-wrap: wrap;
+    .coffee-item3 {
+      width: 300px;
+      height: auto;
+      background-color: $header-background;
+      margin: 10px;
     }
+      .coffee-item3 img {
+        width: 300px;
+        height: auto;
+      }
 
-    .coffee-item1, .coffee-item2, .coffee-item3, .coffee-item4 {
-      flex-basis: 20;
-      
+    .coffee-item4 {
+      width: 300px;
+      height: auto;
+      background-color: $header-background;
+      margin: 10px;
+    }
+      .coffee-item4  {
+        img {
+          width: 300px;
+          height: auto;} 
+        
+      }
+
+      .item-heading {
+        padding: 4px;
+      }
+
+      .item-comment {
+        padding: 4px;
+      }
+  
+      @media (min-width: 413px) {
+          
+          .coffee-selection {
+            display: flex;
+            flex-direction: column;
+            /* flex-direction: column; */
+            /* flex-wrap: wrap; */
+          }
+
+          .coffee-item1, .coffee-item2, .coffee-item3, .coffee-item4 {
+            /* width: 400px; */
+            width: 49%;
+            height: auto;
+            
+
+          
+          .coffee-item1 {
+            img {
+            
+              width: 400px;
+              height: auto;
+              
+            }
+          } 
+          .coffee-item2 {
+            img {
+            
+              width: 400px;
+              height: auto;
+              
+            }
+          }
+          .coffee-item3 {
+            img {
+            
+              width: 400px;
+              height: auto;
+              
+            }
+          .coffee-item4 {
+            img {
+            
+              width: 400px;
+              height: auto;
+              
+            }
+          }
+        }
+
+
+
+        @media(min-width: 767px) {
+          
+          
+
+          .cup1 {
+            flex-wrap: wrap; 
+         
+          .coffee-item1 {
+            width: 400px;
+            height: auto;
+          }
+
+          .coffee-item2 {
+            width: 400px;
+            height: auto;
+          }
+        }
+        .cup2 {
+          flex-wrap: wrap; 
+          .coffee-item3 {
+            width: 400px;
+            height: auto;
+          }
+          .coffee-item4 {
+            width: 400px;
+            height: auto;
+          }
+          
+           
+          
+          .cup1 {
+            .coffee-item1 {
+              img {
+              
+                width: 400px;
+                height: auto;
+                
+              }
+            } 
+            .coffee-item2 {
+              img {
+              
+                width: 400px;
+                height: auto;
+                
+              }
+            }
+          }
+
+          .cup2 {
+            .coffee-item3 {
+              img {
+              
+                width: 400px;
+                height: auto;
+                
+              }
+            .coffee-item4 {
+              img {
+              
+                width: 400px;
+                height: auto;
+                
+                }
+              }
+            }
+          
+            
+            }
+          } 
+        }
+      }
     }
   }
 }
-
