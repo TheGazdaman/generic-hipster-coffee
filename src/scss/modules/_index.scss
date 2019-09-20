@@ -1,0 +1,99 @@
+
+.top div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    line-height: 2rem;
+    max-width: 100vw;
+    // background-color: rgb(10, 49, 61);
+    font-size: 2rem;
+    font-weight: 100;
+    padding-left: 1rem;
+    padding-right: 5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.2rem;
+    // margin-left: 4rem;
+    // margin-right: 4rem;
+}
+
+.opening {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right:3rem;
+        padding-left: 1rem;
+        padding-top:3rem;
+        flex-wrap: wrap;
+        
+    }
+    h2 {
+        font-weight: 100;
+    }
+    
+}
+
+.first-img {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 50vh;
+    // margin-left: 4rem;
+    // margin-right: 4rem;
+    // background-image: url("/img/counter.jpg");
+    background-size: cover;
+    p {
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+   
+}
+
+.map-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // justify-content:;
+    
+    // padding-left: 4rem;
+    // padding-right: 4rem;
+    position: relative;
+    width: 90%;
+    height: 50vh;
+    
+    background-size: cover;
+    // background-image: url("/img/map.jpg");
+    
+    // background-color: rgb(2, 83, 83);
+    // z-index:1;
+    // position: absolute;
+    p {
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+.googlemap {
+    position: relative;
+    top: 30px;
+    
+    
+}
+.first-box {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    // margin-right: -1rem;
+    // margin-top:rem;
+    
+
+}
